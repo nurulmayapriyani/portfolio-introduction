@@ -26,6 +26,7 @@
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
     background-color: black;
+    overflow-y: auto !important;
   }
 
   .logo {
@@ -168,10 +169,11 @@
   }
 
   .pict {
-    margin-top: 50px;
+    margin-top: 30px;
     max-height: 500px;
     width: auto;
     float: right;
+    margin-right:8%;
   }
 
   .contact {
